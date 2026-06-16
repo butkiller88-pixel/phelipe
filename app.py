@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
-import openpyxl
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-from datetime import datetime, date
+from datetime import date
+from streamlit_gsheets import GSheetsConnection
 import os
 
 # Configuração da página
